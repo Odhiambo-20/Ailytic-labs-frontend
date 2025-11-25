@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Send, Mail, Phone, MapPin, Instagram, Github, Youtube, Linkedin } from 'lucide-react';
+import { Send, Mail, Phone, MapPin, Instagram, Github, Youtube, Linkedin, YoutubeIcon } from 'lucide-react';
 
 const Contact = () => {  
   const [formData, setFormData] = useState({
@@ -254,7 +254,7 @@ const Contact = () => {
                       className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
                       aria-label="Follow us on GitHub"
                           >
-                      <Instagram className="h-5 w-5" />
+                      <Github className="h-5 w-5" />
                  </a>
 
                   <a 
@@ -264,7 +264,7 @@ const Contact = () => {
                       className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
                       aria-label="Follow us on YouTube"
                           >
-                      <Instagram className="h-5 w-5" />
+                      <Youtube className="h-5 w-5" />
                  </a>
                    <a 
                       href="https://www.linkedin.com/ailyticslabs" 
@@ -273,7 +273,7 @@ const Contact = () => {
                       className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
                       aria-label="Follow us on LinkedIn"
                           >
-                      <Instagram className="h-5 w-5" />
+                      <Linkedin className="h-5 w-5" />
                  </a>
                 </div>
               </div>
