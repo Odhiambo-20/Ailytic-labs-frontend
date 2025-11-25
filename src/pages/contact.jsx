@@ -238,18 +238,43 @@ const Contact = () => {
               <div className="mt-6 pt-6 border-t border-blue-700">
                 <p className="text-sm text-blue-200 mb-4">Follow us on social media</p>
                 <div className="flex gap-3">
-                  <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all">
-                    <Instagram className="h-5 w-5" />
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all">
-                    <Github className="h-5 w-5" />
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all">
-                    <Youtube className="h-5 w-5" />
-                  </a>
-                  <a href="#" className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all">
-                    <Linkedin className="h-5 w-5" />
-                  </a>
+                  <a 
+                      href="https://www.instagram.com/ailyticslabs" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                      aria-label="Follow us on Instagram"
+                          >
+                      <Instagram className="h-5 w-5" />
+                 </a>
+                   <a 
+                      href="https://www.github.com/ailyticslabs" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                      aria-label="Follow us on GitHub"
+                          >
+                      <Instagram className="h-5 w-5" />
+                 </a>
+
+                  <a 
+                      href="https://www.youtube.com/ailyticslabs" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                      aria-label="Follow us on YouTube"
+                          >
+                      <Instagram className="h-5 w-5" />
+                 </a>
+                   <a 
+                      href="https://www.linkedin.com/ailyticslabs" 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                      aria-label="Follow us on LinkedIn"
+                          >
+                      <Instagram className="h-5 w-5" />
+                 </a>
                 </div>
               </div>
             </div>
