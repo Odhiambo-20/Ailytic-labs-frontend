@@ -61,7 +61,6 @@ function Robots() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className="relative group">
-
              <video
                 autoPlay
                 muted
@@ -148,7 +147,6 @@ function Robots() {
                 <source src={RoboticDog} type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
-
             </div>
           </div>
         </div>
@@ -185,77 +183,103 @@ function Robots() {
         </div>
       </section>
 
-      {/* Footer */}
-            <footer className="py-12 bg-gray-950/80 backdrop-blur-sm border-t border-gray-800">
-              <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
-                  <div>
-                    <div className="flex items-center space-x-2 mb-4">
-                      <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-600 rounded-lg flex items-center justify-center font-bold text-sm">
-                        A
-                      </div>
-                      <span className="text-lg font-bold text-white">Allytic Labs</span>
-                    </div>
-                    <p className="text-gray-400 text-sm">Pioneering the future of robotics, drones, and renewable energy solutions.</p>
-                  </div>
-      
-                  <div>
-                    <h4 className="font-semibold text-white mb-4">Solutions</h4>
-                    <ul className="space-y-2 text-gray-400 text-sm">
-                      <li><a href="/robots" className="hover:text-white transition-colors">Robotics</a></li>
-                      <li><a href="/drones" className="hover:text-white transition-colors">Drones</a></li>
-                      <li><a href="/solarpanels" className="hover:text-white transition-colors">Solar</a></li>
-                    </ul>
-                  </div>
-      
-                  <div>
-                    <h4 className="font-semibold text-white mb-4">Company</h4>
-                    <ul className="space-y-2 text-gray-400 text-sm">
-                      <li><a href="#" className="hover:text-white transition-colors">About</a></li>
-                      <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
-                      <li><a href="#" className="hover:text-white transition-colors">News</a></li>
-                    </ul>
-                  </div>
-      
-                  <div>
-                    <h4 className="font-semibold text-white mb-4">Contact</h4>
-                    <ul className="space-y-2 text-gray-400 text-sm">
-                      <li><a href="/contact" className="hover:text-white transition-colors">Get in Touch</a></li>
-                      <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
-                      <li><a href="#" className="hover:text-white transition-colors">Partnerships</a></li>
-                    </ul>
-                  </div>
+      <footer className="py-12 bg-gray-950/80 backdrop-blur-sm border-t border-gray-800">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-12">
+            <div>
+              <div className="flex items-center space-x-2 mb-4">
+                <div className="w-8 h-8 bg-gradient-to-r from-blue-500 to-cyan-600 rounded-lg flex items-center justify-center font-bold text-sm">
+                  A
                 </div>
-      
-                <div className="border-t border-gray-800 pt-8">
-                  <div className="flex flex-col md:flex-row justify-between items-center gap-8">
-                    <div className="text-sm text-gray-400">
-                      <p>&copy; 2025 Allytic Labs. All rights reserved.</p>
-                      <div className="flex space-x-4 mt-4">
-                        <a href="#" className="hover:text-white transition-colors">Terms and Conditions</a>
-                        <span>|</span>
-                        <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
-                      </div>
-                    </div>
-      
-                    <div className="flex space-x-4">
-                      <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                        <Instagram className="w-5 h-5" />
-                      </a>
-                      <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                        <Github className="w-5 h-5" />
-                      </a>
-                      <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                        <Youtube className="w-5 h-5" />
-                      </a>
-                      <a href="#" className="text-gray-400 hover:text-white transition-colors">
-                        <Linkedin className="w-5 h-5" />
-                      </a>
-                    </div>
-                  </div>
+                <span className="text-lg font-bold text-white">Allytic Labs</span>
+              </div>
+              <p className="text-gray-400 text-sm">Pioneering the future of robotics, drones, and renewable energy solutions.</p>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-white mb-4">Solutions</h4>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li><a href="/robots" className="hover:text-white transition-colors">Robotics</a></li>
+                <li><a href="/drones" className="hover:text-white transition-colors">Drones</a></li>
+                <li><a href="/solarpanels" className="hover:text-white transition-colors">Solar</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-white mb-4">Company</h4>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li><a href="#" className="hover:text-white transition-colors">About</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Careers</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">News</a></li>
+              </ul>
+            </div>
+
+            <div>
+              <h4 className="font-semibold text-white mb-4">Contact</h4>
+              <ul className="space-y-2 text-gray-400 text-sm">
+                <li><a href="/contact" className="hover:text-white transition-colors">Get in Touch</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Support</a></li>
+                <li><a href="#" className="hover:text-white transition-colors">Partnerships</a></li>
+              </ul>
+            </div>
+          </div>
+
+          <div className="border-t border-gray-800 pt-8">
+            <div className="flex flex-col md:flex-row justify-between items-center gap-8">
+              <div className="text-sm text-gray-400">
+                <p>&copy; 2025 Allytic Labs. All rights reserved.</p>
+                <div className="flex space-x-4 mt-4">
+                  <a href="#" className="hover:text-white transition-colors">Terms and Conditions</a>
+                  <span>|</span>
+                  <a href="#" className="hover:text-white transition-colors">Privacy Policy</a>
                 </div>
               </div>
-            </footer>
+
+              <div>
+                <p className="text-sm text-gray-400 mb-4 text-center md:text-right">Follow us on social media</p>
+                <div className="flex gap-3">
+                  <a 
+                    href="https://www.instagram.com/ailyticslabs" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                    aria-label="Follow us on Instagram"
+                  >
+                    <Instagram className="h-5 w-5 text-white" />
+                  </a>
+                  <a 
+                    href="https://github.com/ailyticslabs" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                    aria-label="Follow us on GitHub"
+                  >
+                    <Github className="h-5 w-5 text-white" />
+                  </a>
+                  <a 
+                    href="https://www.youtube.com/@ailyticslabs" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                    aria-label="Subscribe on YouTube"
+                  >
+                    <Youtube className="h-5 w-5 text-white" />
+                  </a>
+                  <a 
+                    href="https://www.linkedin.com/company/ailyticslabs" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="w-10 h-10 bg-white/10 hover:bg-white/20 rounded-lg flex items-center justify-center transition-all"
+                    aria-label="Connect on LinkedIn"
+                  >
+                    <Linkedin className="h-5 w-5 text-white" />
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
     </div>
   );
 }
